@@ -1,0 +1,11 @@
+{
+  "n_points": 50,
+  "transition_beats": 2,
+  "cues": [
+    { "t": 0.0,  "formation": "circle" },
+    { "t": 12.9, "formation": "grid" },
+    { "t": 24.5, "formation": "spiral" },
+    { "t": 27.0, "formation": "letter" },
+    { "t": 39.0, "formation": "circle" }
+  ]
+}
