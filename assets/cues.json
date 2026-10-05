@@ -1,11 +1,34 @@
 {
   "n_points": 50,
   "transition_beats": 2,
-  "cues": [
-    { "t": 0.0,  "formation": "circle" },
-    { "t": 12.9, "formation": "grid" },
-    { "t": 24.5, "formation": "spiral" },
-    { "t": 27.0, "formation": "letter" },
-    { "t": 39.0, "formation": "circle" }
+  "segments": [
+    { "t": 0.0,  "shape": "spiral", "level": 0.0 },
+    { "t": 2.0,  "shape": "spiral", "level": 0.7,
+      "sweep": { "mode": "on", "order": "index_desc", "beats": 7, "subdiv": 8 },
+      "motion": { "type": "spin", "deg_per_s": -20, "delay_s": 5.35 } },
+    { "t": 8.2,  "shape": "spiral", "level": 0.4, "pulse_every": 1,
+      "motion": { "type": "spin", "deg_per_s": -20, "delay_s": 5.35 } },
+    { "t": 12.1, "shape": "spiral", "level": 0.7, "pulse_every": 1,
+      "motion": { "type": "spin", "deg_per_s": -20, "delay_s": 5.35 } },
+    { "t": 14.5, "shape": "lips", "level": 0.45, "color": "red", "pulse_every": 1 },
+    { "t": 24.8, "shape": "upside_down_v", "level": 0.0 },
+    { "t": 27.0, "shape": "upside_down_v", "level": 0.9,
+      "sweep": { "mode": "on", "order": "bottom_up", "beats": 3, "subdiv": 4 } },
+    { "t": 29.4, "shape": "upside_down_v", "level": 0.9, "pulse_every": 1 },
+    { "t": 30.9, "shape": "upside_down_v", "level": 0.9,
+      "sweep": { "mode": "off", "order": "top_down", "beats": 3, "subdiv": 4 } },
+    { "t": 33.2, "shape": "upside_down_v", "level": 0.9,
+      "sweep": { "mode": "on", "order": "bottom_up", "beats": 3, "subdiv": 4 } },
+    { "t": 35.5, "shape": "upside_down_v", "level": 0.9, "pulse_every": 1 },
+    { "t": 37.0, "shape": "waves", "level": 0.4,
+      "motion": { "type": "scroll_wave", "speed": 0.25 } },
+    { "t": 39.7, "shape": "waves", "level": 1.0,
+      "motion": { "type": "scroll_wave", "speed": 0.25 } },
+    { "t": 42.0, "shape": "heart", "level": 0.25, "color": "red",
+      "transition_beats": "fill", "assign": "line" },
+    { "t": 44.0, "shape": "heart", "level": 1.0, "color": "red",
+      "fade": "in", "fade_from": 0.25 },
+    { "t": 46.0, "shape": "heart", "level": 1.0, "color": "red", "pulse_every": 2 },
+    { "t": 49.0, "shape": "heart", "level": 1.0, "color": "red", "pulse_every": 2, "fade": "out" }
   ]
 }
