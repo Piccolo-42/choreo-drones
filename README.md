@@ -10,6 +10,10 @@ Built in two days as a portfolio project while learning Python (my background is
 
 **▶ Full show with audio:** 
 
+https://github.com/user-attachments/assets/36d5cf1d-fafb-4f5b-be7b-0e00eaf80440
+
+
+
 ## How it works
 
 ```
